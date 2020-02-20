@@ -5,6 +5,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
 #main-content {
     margin: auto;
     width: 50%;
@@ -27,4 +35,19 @@ body {
 
 #joke-result {
     font-size: 20px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#footer a {
+    padding: 5px;
 }
